@@ -1,37 +1,130 @@
-## Welcome to GitHub Pages
+# AdabGuardian
+<p>
+    <a href="https://top.gg/bot/705373559299637278"> 
+        <img src="https://top.gg/api/widget/status/705373559299637278.svg" alt="AdābGuardian" /> </a>
+    <a href="https://top.gg/bot/705373559299637278"> 
+        <img src="https://top.gg/api/widget/servers/705373559299637278.svg" alt="AdābGuardian" /> </a> 
+    <a href="https://top.gg/bot/705373559299637278"> 
+        <img src="https://top.gg/api/widget/upvotes/705373559299637278.svg" alt="AdābGuardian" /></a>
+    <a href="https://discord.gg/3gp97gX">
+        <img src="https://img.shields.io/discord/710518367253168199?logo=discord"
+            alt="Discord"></a>
+ </p>
+ 
+## Summary
 
-You can use the [editor on GitHub](https://github.com/vdElyn/AdabGuardian/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+- Version: ![version](https://img.shields.io/badge/version-3.2-blue)
+- Uptime: ![uptime](https://img.shields.io/badge/uptime-100%25-brightgreen)
+- Code progress: ![progress](https://img.shields.io/badge/progress-78%25-yellowgreen)
+- Supported languages: ![languages](https://img.shields.io/badge/english-french-orange)
+- [Vote for the bot](https://top.gg/bot/705373559299637278) 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Introduce the [Islamic Adab's concept](https://en.wikipedia.org/wiki/Adab_(Islam)) in Discord! a sort of "Behavior" score that can increase or decrease depending on your comportment.
 
-### Markdown
+The objective of this project is **to raise awareness of the Adab concept and improve the behaviour of our community.** That's why it offers an **`Adab-Score` management system** with a few messages blaming or encouraging members, as well as rankings **and finally behavioural reminders and advices to be applied immediately!**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<p align="center">
+    <img src="https://i.imgur.com/MAhNDm7.png" alt="" />
+    <table>
+      <thead>
+          <tr>
+          <th><strong style ="color: #282828;">Feature</strong></th>
+          <th><strong style ="color: #282828;">Description</strong></th>
+          </tr>
+       </thead>
+       <tbody>
+          <tr>
+          <td><strong style ="color: #ff9595;">Help</strong></td>
+          <td>List the available features.</td>
+          </tr>
+          <tr>
+          <td><strong style ="color: #ff9595;">Config</strong></td>
+          <td>Server's configuration (Language, Prefix...).</td>
+          </tr>
+          <tr>
+          <td><strong style ="color: #ff9595;">Levels</strong></td>
+          <td>Display the different <em>Adab's</em> degrees.</td>
+          </tr>
+          <tr>
+          <td><strong style ="color: #ff9595;">Adab <em>@mention</em></strong></td>
+          <td>Display your <em>Adab's</em> level (or to mentionned member's one) with a reminder to apply - <em>From various books on the subject.</em></td>
+          </tr>
+          <tr>
+          <td><strong style ="color: #ff9595;">Top <em>w</em></strong></td>
+          <td>Displays the leaderboard of the server's best behaviors - <em>Or the worst..</em></td>
+          </tr>
+          <tr>
+          <td><strong style ="color: #ff9595;">Nafs <em>@mention</em></strong></td>
+          <td>Send a Nafs reminder or a Nafs-Punch if someone is mentionned.</td>
+          </tr>
+          <tr>
+          <td><strong style ="color: #ff9595;">Third</strong></td>
+          <td>Returns from your sunrise and sunset times (Sobh and Maghreb) the time of the last third of your night.</td>
+          </tr>
+          <tr>
+          <td><strong style ="color: #ff9595;">Events</strong></td>
+          <td>Display the <em>Events-Management</em> module menu.</td>
+          </tr>
+          <tr>
+          <td><strong style ="color: #ff9595;">Library</strong></td>
+          <td>Display the <em>Communautary Islamic Library</em> module menu.</td>
+          </tr>
+       </tbody>
+      </table>    
+      <img src="https://i.imgur.com/Z7KQppZ.png" alt="" />
+</p>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## French Version
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vdElyn/AdabGuardian/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<p align="center">
+    <img src="https://i.imgur.com/QD2de8N.png">
+    <table>
+      <thead>
+      <tr>
+      <th><strong style ="color: #282828;">Commande</strong></th>
+      <th><strong style ="color: #282828;">Description</strong></th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+      <td><strong style ="color: #ff9595;">Help</strong></td>
+      <td>Affiche la liste des commandes disponibles.</td>
+      </tr>
+      <tr>
+      <td><strong style ="color: #ff9595;">Config</strong></td>
+      <td>Configuration du serveur (Langue, prefixe...).</td>
+      </tr>
+      <tr>
+      <td><strong style ="color: #ff9595;">Levels</strong></td>
+      <td>Affiche les différents degrés d'<em>Adab</em>.</td>
+      </tr>
+      <tr>
+      <td><strong style ="color: #ff9595;">Adab <em>@mention</em></strong></td>
+      <td>Affiche son niveau d'<em>Adab</em> (ou celui du membre mentionné) ainsi qu'un rappel à appliquer - <em>Issus de différents ouvrages traitant du thème.</em></td>
+      </tr>
+      <tr>
+      <td><strong style ="color: #ff9595;">Top</strong></td>
+      <td>Affiche le classement des plus beaux comportements du serveur.</td>
+      </tr>
+      <tr>
+      <td><strong style ="color: #ff9595;">Nafs <em>@mention</em></strong></td>
+      <td>Envoie un rappel / une attaque au Nafs de la personne mentionnée.</td>
+      </tr>
+      <tr>
+      <td><strong style ="color: #ff9595;">Tiers</strong></td>
+      <td>Renvoie à partir de vos horaires de lever et coucher du soleil (Sobh et Maghreb) l'heure du dernier tiers de votre nuit.</td>
+      </tr>
+      <tr>
+      <td><strong style ="color: #ff9595;">Events</strong></td>
+      <td>Affiche le menu de l'organisateur d'évènements.</td>
+      </tr>
+      <tr>
+      <td><strong style ="color: #ff9595;">Library</strong></td>
+      <td>Affiche le menu de la <em>bibliothèque communautaire</em> du bot.</td>
+      </tr>
+      </tbody>
+  </table>
+    <img src="https://i.imgur.com/btuHwqh.png">
+</p>
