@@ -1,4 +1,3 @@
-# AdabGuardian
 <p>
     <a href="https://top.gg/bot/705373559299637278"> 
         <img src="https://top.gg/api/widget/status/705373559299637278.svg" alt="AdābGuardian" /> </a>
