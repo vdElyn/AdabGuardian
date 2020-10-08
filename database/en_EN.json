@@ -1,0 +1,272 @@
+{
+  "GLOBAL":{
+    "GetPrefix":"My actual prefix is `{}` here. I'm also responding to `@mention` before the command.",
+
+    "CommandNotFound":"Type `{}help` to display all the commands & features!",
+    "MissingPermissions":"`You don't have the required permissions to use this!`"
+  },
+
+  "MANAGEMENT":{
+    "ConfigEbd":{
+              "title" : "Bot configuration",
+              "description" : "All these parameters are customizable by an admin.",
+              "fields" : [
+                  {
+                      "name" : "Prefix",
+                      "value" : "`{}` or `@mention`\n\n`{}setprefix <prefix>` to customize."
+                  },
+                  {
+                      "name" : "Language",
+                      "value" : "English `en_EN`\n\n`{}switch_language` to switch to `fr_FR`."
+                  },
+                  {
+                      "name" : "Welcome message",
+                      "value_on" : "`Enabled on {}.`\n\n`{}reset_welcome` to **turn off**.",
+                      "value_off" : "`Disabled for your server.`\n\n`{}setup_welcome` to **turn on** and configure."
+                  }
+              ]
+          }
+  },
+
+  "ADAB":{
+    "levels": {
+      "title" : "**Adab Degrees** – Descending",
+      "type":"Type `{}adab` to display your level and to know more about Adāb!",
+      "stages": [
+          "<:joyau:722934430720852039> **—  Jewel**",
+          "<:shootingstar:722936381663477851>  **—  Shooting star**",
+          "<:lumiere:722941263367766046> **—  Brightness**",
+          "<:lilflame:722933534226120744> **—  Rising flame**",
+          "<:etincelle:722935926967238714> **—  Sparkle**",
+          "<:tache:722940810252779551> **—  Unknown**",
+          "<:trash:722927693456474195>  **—  Trash**",
+          "<:virus:722927692202115143> **—  Virus**",
+          "<:M5s:722924383856754738> **—  M5s**"
+      ]
+    },
+
+    "Greetings": {
+      "generosity_title": "<:lumiere:722941263367766046> {} Adab sent — Keep it up with this generosity!",
+      "stingy_title": "<:trash:722927693456474195> {} Adab withdrawn — This has to change..",
+      "reminders":[
+        "{}, **Generosity was among the countless good qualities of Prophet Muhammad ﷺ.** He was the most generous of people and he used to be most generous in Ramadan.",
+        "{}, **Muslims believe that everything originates from God and everything will return to Him.** So we need to behave as if that which we possess is merely a loan, something we are obligated to preserve, protect **and ultimately share.**",
+        "{}, **Anything given generously — freely to others — with the intention of pleasing God is Sadaqah.** Sadaqah can be as simple as a smile, helping an elderly person with their groceries or removing objects from the road or path.",
+        "{}, God tells us in the Qur’an **that whatever we give away generously,** with the intention of pleasing Him, He will replace and multiply. **Allah knows what is in the hearts of men.**"
+      ]
+    },
+
+    "AutoAdab":[
+      "Do you honestly think that I am subject to these fooleries?",
+      "Think about it for a sec.. What did you just wrote?",
+      "Wait.. **My Adab**?",
+      "I'm the Adab Guardian! How dare you?"
+    ],
+
+    "adabUpMsg":[
+      "{} should be our guide!",
+      "Everyone here should take {} for a model!",
+      "You're evolving {}!",
+      "I really appreciate this, {}!",
+      "{} just gained some Adab!",
+      "Wonderful! Keep it up, {}!",
+      "Splendid! {} rises!",
+      "{}, that's exactly the behavior that I like!",
+      "You're following the right path {}!",
+      "{} has an examplary Adab!",
+      "I'm realy happy to read that {}!",
+      "I knew you could do it, keep it up {}!"
+    ],
+
+    "adabDownMsg":[
+      "I'm very disappointed in you, {}.",
+      "You dare to behave like this in my presence? {} is loosing Adab..",
+      "That was ugly {}.",
+      "Please don't pay attention to {} anymore.",
+      "My eyes are burning {}, please don't look after that Adab.",
+      "You should be ashamed {}, I wish you weren't there.",
+      "You're disgusting {}.."
+    ],
+
+    "BarakaMsg":[
+      "Baaraka is after you, {} ! :sparkles:",
+    	"Enjoy this moment, {}, it won't happen often! :sparkles:",
+    	"{} all benefit a fragment from this Baaraka! :sparkles:"
+    ],
+
+    "JewelMsg":[
+      "is our greatest Jewel!",
+      "has now risen!",
+      "is truly priceless!",
+      "is our precious Jewel!"
+    ],
+
+    "StarMsg":[
+      "is already up there among the comets!",
+      "is one of the most beautiful constellations!",
+      "has now become celestial!",
+      "is one of those that light up in the night!",
+      "shows others the way!",
+      "participates in guiding sailors at sea!"
+    ],
+
+    "BrightMsg": [
+      "is the **light** of our days!",
+      "lightens our dark thoughts!",
+      "should be our example.",
+      "deserves our respect,",
+      "is among the **best** of us!",
+      "has an exemplary Adab."
+    ],
+
+    "FlameMsg":[
+      "is like this little flame: crackling, glittering, and soon to glow!",
+      "will soon be among the nation's elite.",
+      "will soon be Mukallef.",
+      "is following the right path.",
+      "is already shedding light on some lost seeds.",
+      "has a promising future.",
+      "is a guide to the sorrowful hearts."
+    ],
+
+    "SparkleMsg":[
+      "has the foundations of a healthy education.",
+      "has been on the right track.",
+      "is a respectable person.",
+      "has a rather decent Adab.",
+      "knows how to be polite.",
+      "is the little spark that will become fire... or will burn out.",
+      "already has a burning heart.."
+    ],
+
+    "UnknownMsg":[
+      "is one of those who don't bother.",
+      "knows how to make an act of presence.",
+      "is... there.",
+      "is one of those we call: 'The Mysterious'.",
+      "is a stranger here.",
+      "is still secret to me..",
+      "hasn't yet proven itself Adabically speaking.",
+      "still has everything to prove.",
+      "is still a baby.",
+      "hasn't made itself heard yet.",
+      "hasn't done more than just stand here.",
+      "speaks and gesticulates vehemently, but I don't know more.",
+      "is an oddball among others."
+    ],
+
+    "TrashMsg":[
+      "disgusts me just by reading his name.",
+      "should reform. Or hide. Or leave. Far away.",
+      "doesn't even know the proper meaning of an 'education'.",
+      "barely knows how to keep himself alive. What an education!",
+      "shouldn't even try to know that.",
+      "is clearly not here to advocate good behavior.",
+      "has a deficit in the basics of behavior.",
+      "surprises me every day. I don't even know if he can even say hello.",
+      "is among the trash, get away from it!"
+    ],
+
+    "VirusMsg":[
+      "is an **abominable** person!",
+      "should **really** review his behavior!",
+      "has the **worst** Adab on earth.",
+      "has an **abominable** Adab.",
+      "is sincerely to be avoided!",
+      "is execrable."
+    ],
+
+    "M5sMsg":[
+      ".. Je ne pensais pas vraiment pas que l'on pouvait l'égaler !",
+      ".. Encore toi !",
+      ".. C'est réel ?",
+      ".. Je n'ai pas été conçu pour ça !"
+    ],
+
+    "rappelsAdabMsg":[
+      "The **finest Ornament man** can wear is, without any doubt, **constant sense of Adab** (Pious Propriety)",
+      "Among the classic rules of Adab Zãhir, **compassion for youth** and **Respect for the elders**",
+
+      "When someone calls you, reply immediately so that the person knows that you have heard him.",
+      "When someone speaks to you, **do not listen with indifference.** This attitude will **hurt his feelings.** This applies to a greater extent **when someone speaks for your benefit** or answer your question.",
+      "**If you are overcome by anger,** then immediately **move away from that place** and recite: « أعوذ بالله من الشيطان الرجيم ». If possible, make wudhu. **Never discuss a problem in the state of anger.**",
+      "**Exercise patience.** Never make hasty decisions which you will regret later. “Allâh is with those who exercise patience.”",
+      "**Learn to admit your mistakes.** This is a **sign of humility.** Do not attempt to justify your mistakes.",
+      "Think before buying. Don’t be extravagant and don’t be stingy. A person who does so will be granted blessings (barakah).",
+      "Do not make promises in haste, or in a state of extreme anger or happiness. ",
+      "**Always speak clearly** so that your message is properly relayed and the opposite party understands you.",
+      "Enter the masjid with the right foot, reciting the appropriate duas. When leaving, emerge with the left foot, reciting the appropriate duâs.",
+      "While eating, do not mention such things which nauseate or are offensive to others. People of delicate nature are affected by such speech.",
+      "If the food is less and the people present are many, do not eat to satiation. **Keep others in mind.**",
+      "Adopt the practise of **mutual Salâm.** Whenever meeting a Muslim say, “Assalâmualaikum“. In reply, one should say, “Wa alaykumus salâm.” If a person adds “warahmatullâhi wabarakâtuhu”, there is more reward.",
+      "When replying, **the Salâm should be made verbally,** and not by the sign of the hand or a nod of the head.",
+      "When making salâm and meeting elders, **adopt a low voice.** Do not express yourself in such terms **which convey arrogance or disrespect.**"
+
+    ],
+
+    "Nafs": [
+      "Realistically, we are nothing but dust in the universe, an infinitesimal element of space. {} do you get it?"
+    ],
+
+    "NafsRappels":[
+      "{ Ils diront: ‘nous y sommes restés une journée ou une partie d’une journée ; demandez à ceux qui comptent.’ Il dit : ‘**Vous êtes restés là seulement quelques instants, si seulement vous saviez !** }\n*- Sourate 23, verset 113-114*",
+      "{ **Tout ce que vous possédez s’épuisera**, tandis que ce qui est auprès d’Allah durera. }\n*- Sourate 16, verset 96*",
+      "{ Le jour où ils la verront, ce sera **comme s’ils n’avaient séjourné (dans le monde), que le temps d’un coucher du soleil ou de son lever.** }\n*- Sourate 79, verset 46*",
+      "**Prie sur le Prophète ﷺ** et mets-toi au service des gens avec la bonne intention, et **sache que le service est meilleur que le Dhikr.**\n*- Shah Naqshband*",
+      "Sache que **l'âme est de trois sortes** : une âme *instigatrice du mal* (Ammâra), une âme *qui ne cesse de se faire des reproches* (Lawwâma) et une *âme apaisée* (Mutma'inna).",
+      "**L’âme qui ne cesse de se blâmer** est celle qui se fait des reproches à propos du bien et du mal et **qui manque de patience dans les moments de joie et de peine.**",
+      "**L'âme apaisée** est celle qui a eu la certitude que Dieu est son Seigneur, qui est rassurée par la Promesse de Dieu, **qui a cru à la Parole de Dieu et qui a enduré Son commandement.**",
+      "**L'âme instigatrice du mal** est l’âme nocive ayant un désir insignifiant de faire le bien. **Combattez cette âme, et empêchez-la de succomber aux passions.**"
+    ]
+  },
+
+  "EVENTS": {
+    "embed": {
+      "title":"<:events:723181133378093110> Managing events",
+      "description":"An **event** is represented by a message on which **members can register** and thus **receive notifications** from it.",
+      "fields":[
+        {
+          "name":"How does it work?",
+          "value":"Upon creation, you'll be given a `[code]` which you can use **to manage your event.**\n\n**React with :pencil: below the event announcement to register!**",
+          "inline":false
+        },
+        {
+          "name":"⠀",
+          "value":"**Event commands:**",
+          "inline":false
+        },
+        {
+          "name":":scroll: List the current events",
+          "value":"`{}evt list`",
+          "inline":true
+        },
+        {
+          "name":":clipboard: Create a new event",
+          "value":"`{}evt new Event_Name`",
+          "inline":true
+        },
+
+        {
+          "name":"End an event",
+          "value":"Click :lock: under the event announcement message to close it.",
+          "inline":false
+        },
+        {
+          "name":":envelope: Call / Notify the registrants",
+          "value":"`{}evt call Message_To_Send`",
+          "inline":true
+        },
+        {
+          "name":"<:annonce:724271384926355466> Reload the announcement",
+          "value":"`{}evt reload [code]`",
+          "inline":true
+        },
+        {
+          "name":"⠀",
+          "value":"<:adabGuardian:721788587766579332> [Invite me on your server](https://discord.com/api/oauth2/authorize?client_id=705373559299637278&permissions=8&scope=bot) | [Support server & suggestions](https://discord.gg/3gp97gX) | [Vote for the bot](https://top.gg/bot/705373559299637278/vote)",
+          "inline":false
+        }
+      ]
+    }
+  }
+}

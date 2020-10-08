@@ -1,0 +1,292 @@
+{
+  "GLOBAL":{
+    "GetPrefix":"`Je répondrai aux commandes commençant par '{}' ou me mentionnant !`",
+
+    "CommandNotFound":"Tape `{}help` pour afficher la liste des fonctionnalités !",
+    "MissingPermissions":"`Tu n'as pas les permissions nécessaires pour utiliser cette commande !`"
+  },
+
+  "MANAGEMENT":{
+    "ConfigEbd":{
+              "title" : "Configuration actuelle",
+              "description" : "L'ensemble des paramètres ci-dessous sont modifiables par un administrateur.",
+              "fields" : [
+                  {
+                      "name" : "Prefixe",
+                      "value" : "`{}` ou `@mention`\n\n`{}setprefix <prefix>` pour modifier."
+                  },
+                  {
+                      "name" : "Langue",
+                      "value" : "Français `fr_FR`\n\n`{}switch_language` pour passer en `en_EN`."
+                  },
+                  {
+                      "name" : "Message d'accueil",
+                      "value_on" : "`Activé sur {}.`\n\n`{}reset_welcome` pour **désactiver**.",
+                      "value_off" : "`Désactivé pour votre serveur.`\n\n`{}setup_welcome` pour **activer** et configurer."
+                  }
+              ]
+          }
+  },
+
+  "ADAB":{
+    "levels": {
+      "title" : "**Degrés d'Adab** – Descendant",
+      "type":"Tape `{}adab` pour connaître ton niveau et en savoir plus sur les Adāb !",
+      "stages": [
+          "<:joyau:722934430720852039> **—  Joyau**",
+          "<:shootingstar:722936381663477851>  **—  Étoile filante**",
+          "<:lumiere:722941263367766046> **—  Lumière**",
+          "<:lilflame:722933534226120744> **—  Flamme naissante**",
+          "<:etincelle:722935926967238714> **—  Étincelle**",
+          "<:tache:722940810252779551> **—  Énigmatique**",
+          "<:trash:722927693456474195>  **—  Déchet**",
+          "<:virus:722927692202115143> **—  Virus**",
+          "<:M5s:722924383856754738> **—  M5s**"
+      ]
+    },
+
+    "Greetings": {
+      "generosity_title": "<:lumiere:722941263367766046> {} Adab envoyés — Continue comme ça !",
+      "stingy_title": "<:trash:722927693456474195> {} Adab retirés — Il faut que ça change..",
+      "reminders":[
+        "{}, **La générosité faisait partie des nombreuses qualités du prophète Mohammed ﷺ.**  Il était le plus généreux de tous et il l’était encore plus durant le mois de Ramadan.",
+        "{}, Chaque fois que le Prophète ﷺ croisait un pauvre, **il lui recommandait d’être plus généreux et charitable.** Ibn ‘Abbas a rapporté : « Le croyant n’est pas celui qui mange à satiété quand son voisin a faim. »",
+        "{}, **Tout ce qui est donné généreusement avec l’intention de plaire à son Créateur est considéré comme une Sadaqa.**  La Sadaqa peut être quelque chose d’aussi simple qu’un sourire, ou de retirer un obstable d'un chemin.",
+        "{}, La générosité peut également être vue comme **un sage investissement pour l’avenir.** La générosité, ou Sadaqa, peut paver le chemin vers le Paradis, car Dieu récompense largement tout acte de générosité fait avec sincérité.",
+        "{}, Dans le Coran, Dieu nous dit **que tout ce que nous donnons en charité avec l’intention sincère de Lui plaire,** Il nous le remplacera.  **Allah sait ce qui se trouve au fond du cœur de l’homme.**"
+      ]
+    },
+
+    "AutoAdab":[
+      "Penses-tu sincèrement que je suis soumis à ces facéties ?",
+      "Réfléchis deux secondes.. Qu'est ce que tu viens de faire ?",
+      "Comment ça, *mon Adab* ?",
+      "Moi ? Le Gardien du Adab ? Tu te poses encore la question ?"
+    ],
+
+    "adabUpMsg":[
+      "{} ! Tu gagnes en Adab !",
+    	"Magnifique ! Continue comme ça, {} !",
+    	"C'est beau ! {} s'élève !",
+    	"Franchement mérité, {} gagne du Adab !",
+      "Tu vois {}, c'est ce comportement qui me plaît, ton Adab s'améliore !",
+      "Attendez, je crois que.. Oui ! {} évolue !",
+      "Tu suis le bon chemin {} !",
+      "{} fera bientôt partie des meilleurs, sachez-le.",
+      "{} a un Adab exemplaire !",
+      "C'est une joie pour moi de lire ça {} !",
+      "Je savais que tu pouvais le faire, continue comme ça {} !"
+    ],
+
+    "adabDownMsg":[
+      "Tu me déçois beaucoup, {}.",
+      "Et tu oses te comporter de la sorte en ma présence ? L'Adab de {} s'estomp.",
+    	"Oh.. {}, pas toi..",
+      "Ce que vient de faire {}, c'est pile ce qu'il faut éviter.",
+      "C'est moche {}, reprends toi.",
+    	"{}.. Un tel comportement..",
+    	"Mes yeux {}, mes yeux .. C'est du Adab qui se perd..",
+    	"Tu devrais avoir honte {}, que je ne t'attrape pas une autre fois.",
+      "Tu me répugne {}.."
+    ],
+
+    "BarakaMsg":[
+      "La Baaraka vous survole, {} ! :sparkles:",
+    	"Profitez de ce moment, {}, ça n'arrive pas souvent ! :sparkles:",
+    	"{} prennent chacun une fraction de cette Baaraka de passage ! :sparkles:"
+    ],
+
+    "JewelMsg":[
+      "est notre plus beau joyau !",
+      "n'a aujourd'hui plus d'égal !",
+      "s'est à présent élevé !",
+      "est ce que l'on a de plus précieux !"
+    ],
+
+    "StarMsg":[
+      "est déjà tout là-haut, parmi les comètes !",
+      "fait partie des plus belles constellations !",
+      "est maintenant devenu céleste !",
+      "est de ceux qui éclairent dans la nuit !",
+      "indique aux autres la voie à suivre !",
+      "participe à la guidée des marins en mer !"
+    ],
+
+    "BrightMsg": [
+      "est la **lumière** de nos jours !",
+      "éclaire nos pensées sombres !",
+      "devrait être notre exemple.",
+      "mérite tout notre respect,",
+      "est parmi les **meilleurs** d'entre nous !",
+      "a un Adab exemplaire."
+    ],
+
+    "FlameMsg":[
+      "est telle cette petite flamme : crépitante, scintillante, et bientôt rayonnante !",
+      "sera bientôt parmi l'élite de la nation.",
+      "sera bientôt Mukallef.",
+      "suit le bon chemin.",
+      "éclaire déjà certaines graines perdues.",
+      "a un avenir prometteur.",
+      "est une guidée pour les coeurs désolés."
+    ],
+
+    "SparkleMsg":[
+      "a les bases d'une éducation saine.",
+      "a su se diriger vers la bonne voie.",
+      "est quelqu'un de respectable.",
+      "a un Adab plutôt correct.",
+      "sait faire preuve de politesse.",
+      "est la petite étincelle qui deviendra feu.. ou se consumera..",
+      "a déjà le coeur brûlant.."
+    ],
+
+    "UnknownMsg":[
+      "fait partie de ceux qui ne dérangent pas.",
+      "sait faire acte de présence.",
+      "est.. là.",
+      "est de ceux que l'on appelle : 'Les Mystérieux'.",
+      "est étranger ici.",
+      "est encore secret pour moi..",
+      "n'a pas encore fait ses preuves Adabiquement parlant.",
+      "a encore tout à prouver.",
+      "est encore tout bébé.",
+      "ne s'est pas encore fait entendre.",
+      "n'a pas fait plus qu'être présent ici.",
+      "ne fait ni tâche, ni soulagement.",
+      "parle et gesticule avec véhémence, mais je n'en sais pas plus.",
+      "est un énergumène parmi les autres."
+    ],
+
+    "TrashMsg":[
+      "me répugne rien qu'en lisant son nom.",
+      "devrait se réformer. Ou se cacher.. Ou partir.. Loin..",
+      "ne connaît même pas le sens propre d'une \"éducation\".",
+      "sait à peine se tenir en vie. Quelle éducation !",
+      "ne devrait même pas chercher à savoir ça.",
+      "n'est clairement pas la pour prôner le bon comportement.",
+      "a un déficit dans les bases du comportement.",
+      "me surprend chaque jour. Je ne sais même pas s'il sait dire bonjour.",
+      "est parmi les déchets, éloignez vous-en !"
+    ],
+
+    "VirusMsg":[
+      "est une personne **abominable** !",
+      "devrait **vraiment** revoir son comportement !",
+      "a le **pire** Adab sur Terre.",
+      "est sacrément détestable Adabiquement parlant.",
+      "est sincèrement à éviter !",
+      "est execrable."
+    ],
+
+    "M5sMsg":[
+      ".. Je ne pensais pas vraiment pas que l'on pouvait l'égaler !",
+      ".. Encore toi !",
+      ".. C'est réel ?",
+      ".. Je n'ai pas été conçu pour ça !"
+    ],
+
+    "rappelsAdabMsg":[
+    	"Que la meilleure parure dont l’homme puisse se parer, est **la bonne conduite** partout où il passe.",
+    	"Quiconque cherche à pénétrer dans l’enceinte scellée sans cette **conduite légale**, est un sot infâme.",
+    	"L'Adab, c'est le fait d’aller visiter un malade, de répondre à son salut. Observe ces recommandations.",
+    	"Quiconque est plus grand (ou plus âgé) que toi, honore-le, quiconque est plus petit que toi, épargne-le et témoigne-lui de pitié.",
+    	"Apprête-toi à adopter les meilleures manières, agissant sans hypocrisie.",
+    	"L’Adab, l’Adab, puis encore l’Adab. C’est obéir et respecter la mère, le père, l’oncle, la tante, le grand-frère, le chef spirituel, car ils sont certes, digne du bon traitement.",
+    	"L'Adab, c'est le fait d’accorder le pardon à un offenseur, de donner à celui qui te prive.",
+    	"L'Adab, c'est renouer amitié avec celui qui t’a abandonné, de même de se montrer bon envers tous. Réveilles-toi et suis !",
+
+      "Si la nourriture est moins abondante et que les personnes présentes sont nombreuses, ne mangez pas à satiété. **Gardez les autres à l'esprit.**",
+      "Adoptez la pratique du **salâm mutuel.** Chaque fois que vous rencontrez un musulman, dites “Assalâmualaikum“.",
+      "Quand on répond, **le Salâm doit être fait verbalement,** et non par le signe de la main ou un hochement de tête.",
+      "Lorsque vous faites le salâm et que vous rencontrez les anciens, **adoptez une voix basse.** Ne vous exprimez pas en des termes **qui véhiculent l'arrogance ou le manque de respect.**",
+      "Lorsque quelqu'un vous appelle, répondez immédiatement afin que la personne sache que vous l'avez entendu.",
+      "Quand quelqu'un vous parle, **n'écoutez pas avec indifférence.** Cette attitude va **maltraiter ses sentiments.** Cela s'applique dans une plus large mesure **quand quelqu'un parle pour vous** ou répond à votre question.",
+      "**Si vous êtes en colère**, alors immédiatement **évacuez cet endroit** et récitez : « أعوذ بالله من الشيطان الرجيم ». Si possible, faites du wudhu. **Ne discutez jamais d'un problème dans l'état de colère.**",
+      "Ne prenez jamais de décisions hâtives que vous regretterez plus tard. « Allâh est avec ceux qui font preuve de patience.» ",
+      "Apprenez à admettre vos erreurs, c'est un signe d'humilité, n'essayez pas de justifier vos erreurs",
+
+    	"Il est bon de dissimuler le mal qui nous frappe au point de paraître tout à fait en paix et de faire effort autant que possible.",
+    	"Il en est de la patience, du courage de l’homme luttant contre la tentation de ce qui lui est interdit et ainsi contre les plaisirs néfastes.",
+    	"L’homme le plus brave est celui qui **patiente** dans la paix et la félicité. Cette patience consiste à ne pas s’y attacher au point de s’y laisser tromper en s’y abandonnant naïvement.",
+    	"L’homme ne doit pas s’abandonner éperdument aux jeux et aux plaisirs sans songer à ses devoirs et à son avenir.",
+    	"Fait partie de l'Adab notre patience devant les charges de la famille et le fait de supporter leur mal dans le meilleur des comportements en paroles et en acte.",
+    	"Fait partie de l'Adab le fait de se résigner aux exigences de la famille, de les tolérer, de supporter leur charge sans céder à aucune mauvaise influence."
+    ],
+
+    "Nafs": [
+      "Eh, {}, redescends.",
+      "{} tu te crois où ?",
+      "T'es personne {}, tu percutes ?",
+      "T'as oublié que tu n'étais que '{}' ici ?",
+      "Qu'as-tu fait dans ta vie {} jusqu'à présent ? Es-tu prêt.e à partir ?",
+      "{} On dit que le silence est une vertu malheureusement délaissée.",
+      "D’un point de vue réaliste, nous ne sommes rien d’autre qu’une poussière dans l’univers, un élément infinitésimal de l’espace. {} t'entends ?",
+      "Je vois que {} persiste à croire qu'il vit dans un monde fixe dans lequel le soleil et l’univers tournent autour de lui.",
+      "Es-tu conscient des dimensions réelles de l’existence ? Notre temps est limité, {} !",
+      "Soixante-dix ans sur Terre équivalent à 8,6 secondes solaire. Ta vie sur Terre, {}, a pour seul but de préparer ta mort.",
+      "Tâche de ne pas faire partie de ceux qui réaliseront trop tard que leur temps est compté, {}."
+    ],
+
+    "NafsRappels":[
+      "{ Ils diront: ‘nous y sommes restés une journée ou une partie d’une journée ; demandez à ceux qui comptent.’ Il dit : ‘**Vous êtes restés là seulement quelques instants, si seulement vous saviez !** }\n*- Sourate 23, verset 113-114*",
+      "{ **Tout ce que vous possédez s’épuisera**, tandis que ce qui est auprès d’Allah durera. }\n*- Sourate 16, verset 96*",
+      "{ Le jour où ils la verront, ce sera **comme s’ils n’avaient séjourné (dans le monde), que le temps d’un coucher du soleil ou de son lever.** }\n*- Sourate 79, verset 46*",
+      "**Prie sur le Prophète ﷺ** et mets-toi au service des gens avec la bonne intention, et **sache que le service est meilleur que le Dhikr.**\n*- Shah Naqshband*",
+      "Sache que **l'âme est de trois sortes** : une âme *instigatrice du mal* (Ammâra), une âme *qui ne cesse de se faire des reproches* (Lawwâma) et une *âme apaisée* (Mutma'inna).",
+      "**L’âme qui ne cesse de se blâmer** est celle qui se fait des reproches à propos du bien et du mal et **qui manque de patience dans les moments de joie et de peine.**",
+      "**L'âme apaisée** est celle qui a eu la certitude que Dieu est son Seigneur, qui est rassurée par la Promesse de Dieu, **qui a cru à la Parole de Dieu et qui a enduré Son commandement.**",
+      "**L'âme instigatrice du mal** est l’âme nocive ayant un désir insignifiant de faire le bien. **Combattez cette âme, et empêchez-la de succomber aux passions.**"
+    ]
+  },
+
+  "EVENTS": {
+    "embed": {
+      "title":"<:events:723181133378093110> Module évènement & gestion",
+      "description":"Un **évènement** est représenté par un message sur lequel **les membres peuvent s'inscrire** et ainsi **recevoir les notifications** de celui-ci.",
+      "fields":[
+        {
+          "name":"Comment ça marche ?",
+          "value":"À la création, un `[code]` vous est attribué et vous servira à **gérer votre évènement.**\n\n**Réagissez avec :pencil: sous l'annonce de l'évènement pour vous y inscrire !**",
+          "inline":false
+        },
+        {
+          "name":"⠀",
+          "value":"**Commandes évènement :**",
+          "inline":false
+        },
+        {
+          "name":":scroll: Lister les évènements",
+          "value":"`{}evt list`",
+          "inline":true
+        },
+        {
+          "name":":clipboard: Créer un évènement",
+          "value":"`{}evt new Event_Name`",
+          "inline":true
+        },
+
+        {
+          "name":"Terminer un évènement",
+          "value":"Cliquez sur :lock: sous le message d'annonce d'évènement pour le clôturer.",
+          "inline":false
+        },
+        {
+          "name":":envelope: Notifier les inscrits",
+          "value":"`{}evt call Message_To_Send`",
+          "inline":true
+        },
+        {
+          "name":"<:annonce:724271384926355466> Re-publier l'annonce",
+          "value":"`{}evt reload [code]`",
+          "inline":true
+        },
+        {
+          "name":"⠀",
+          "value":"<:adabGuardian:721788587766579332> [Invite le bot sur ton serveur](https://discord.com/api/oauth2/authorize?client_id=705373559299637278&permissions=8&scope=bot) | [Serveur support et suggestions](https://discord.gg/3gp97gX) | [Voter pour le bot](https://top.gg/bot/705373559299637278/vote)",
+          "inline":false
+        }
+      ]
+    }
+  }
+}
